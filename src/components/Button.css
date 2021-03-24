@@ -1,0 +1,83 @@
+:root{
+    --primary: #fff;
+    --secondary: #1a1717;
+}
+
+.btn{
+    padding: 8px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+}
+
+.navbar-btn{
+    padding: 8px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    background-color: #1a1717;
+    color: #fff;
+    border: 1px solid #1a1717;
+}
+
+/* .nav-btn--secondary{
+    
+} */
+
+.btn--primary{
+    background-color: var(--primary);
+    color: #242424;
+    border: 1px solid var(--primary);
+}
+
+.btn--secondary{
+    background-color: var(--secondary);
+    color: #fff;
+    border: 1px solid var(--secondary);
+}
+
+.btn--secondary-outline{
+    background-color: transparent;
+    color: var(--secondary);
+    padding: 8px 20px;
+    border: 1px solid var(--secondary);
+    transition: all 0.3s ease-out;
+}
+
+.btn--outline{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.btn--small{
+    padding: 4px 14px;
+    font-size: 1rem;
+    white-space: nowrap;
+    /* border-radius: 8px; */
+}
+
+.btn--medium{
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.btn--large{
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn--medium:hover, .btn--large:hover{
+    background: #fff;
+    color:#242424;
+    /* border: 2px solid #242424; */
+    transition: all 0.3s ease-out;
+}
